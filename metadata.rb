@@ -1,0 +1,10 @@
+name             'an_minimart'
+maintainer       'Christopher Webber'
+maintainer_email 'cwebber@chef.io'
+license          'Apache 2.0'
+description      'Installs/Configures an_minimart'
+long_description 'Installs/Configures an_minimart'
+version          '0.1.0'
+
+depends 'chef-vault'
+depends 'supermarket', '>= 3.1.0'
